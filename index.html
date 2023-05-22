@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI-CALCULATOR</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <input type="range" min="20" oninput="calc()" max="200" value="20" id="weight" />
+        <span id="weVal">20 Kg</span>
+      </div>
+
+      <div class="row">
+        <input type="range" min="100" oninput="calc()" max="250" value="100" id="height" />
+        <span id="heVal">100 Cm</span>
+      </div>
+
+      <p id="result">20.0</p>
+      <p id="category">Normal</p>
+    </div>
+
+    <script src="bmı.js"></script>
+  </body>
+</html>
